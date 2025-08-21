@@ -1,13 +1,43 @@
-# Sample Hardhat Project
+# HelloCore Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is my first sample smart contract built using Solidity and hardhat setup for compile, test, and deploy. SOme of Contract are `` HelloCore.sol ``
 
-Try running some of the following tasks:
+## what to do first
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+* Install node modules with packahe_lock.json
+    ```
+    npm install
+    ```
+* Create .env file on the root directory level of your system
+* Past your account private key
+    ```shell
+    touch .env
+    ```
+## Environment variables
 ```
+PRIVATE_KEY=5a4f**************************************************************
+```
+
+### Run comile command
+```
+    npx hardhat compile
+```
+
+### Run test command
+```
+    npx hardhat test
+```
+
+### Interact with the HardHat
+
+```
+npx hardhat run scripts/deploy.js --network coretestnet
+```
+
+## Images showing how it will look like
+
+![deploy](./deploy.png)
+
+![Test](./test.png)
+
+![Account](./account.png)
