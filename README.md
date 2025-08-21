@@ -5,14 +5,14 @@ This is my first sample smart contract built using Solidity and hardhat setup fo
 ## what to do first
 
 * Install node modules with packahe_lock.json
-    ```
-    npm install
-    ```
+ ```
+ npm install
+ ```
 * Create .env file on the root directory level of your system
 * Past your account private key
-    ```shell
-    touch .env
-    ```
+```shell
+touch .env
+```
 ## Environment variables
 ```
 PRIVATE_KEY=5a4f**************************************************************
@@ -20,12 +20,12 @@ PRIVATE_KEY=5a4f**************************************************************
 
 ### Run comile command
 ```
-    npx hardhat compile
+npx hardhat compile
 ```
 
 ### Run test command
 ```
-    npx hardhat test
+npx hardhat test
 ```
 
 ### Interact with the HardHat
