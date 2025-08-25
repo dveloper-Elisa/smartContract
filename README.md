@@ -1,3 +1,5 @@
+## Elisa 's Coin
+
 # HelloCore Hardhat Project
 
 This is my first sample smart contract built using Solidity and hardhat setup for compile, test, and deploy. SOme of Contract are `` HelloCore.sol ``
